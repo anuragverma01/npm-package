@@ -9,6 +9,8 @@ YUVRAJ
 
  yarn add package-name
 
+# Import module as 
+  import UIText from "react-native-customtext-v1"
 # Example usage:
 
 import {View} from 'react-native';
