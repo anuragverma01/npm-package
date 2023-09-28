@@ -1,5 +1,5 @@
 {
-  "name": "hello-package",
+  "name": "React-Native-Custom-Text",
   "version": "1.0.0",
   "description": "My first NPM Package",
   "main": "index.js",
@@ -11,7 +11,8 @@
     "test",
     "react-native",
     "typescript",
-    "hello-project"
+    "hello-project",
+    "ReactNative CustomText"
   ],
   "author": "Yuvraj",
   "license": "ISC",
