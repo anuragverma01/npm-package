@@ -6,6 +6,13 @@
   "scripts": {
     "test": "npm start"
   },
+  "keywords": [
+    "npm-package",
+    "test",
+    "react-native",
+    "typescript",
+    "hello-project"
+  ],
   "author": "Yuvraj",
   "license": "ISC",
   "peerDependencies": {
