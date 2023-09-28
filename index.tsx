@@ -22,7 +22,7 @@ interface IndexProps {
   Texttitle: string;
 }
 
-const Index: React.FC<IndexProps> = ({
+const UIText: React.FC<IndexProps> = ({
   alignItems,
   alignContent,
   alignSelf,
@@ -46,7 +46,7 @@ const Index: React.FC<IndexProps> = ({
   ...restProps
 }) => {
   const styles = StyleSheet.create({
-    text: {
+    UIText: {
       alignItems,
       alignContent,
       alignSelf,
@@ -69,11 +69,11 @@ const Index: React.FC<IndexProps> = ({
   });
   return (
     <View>
-      <Text style={styles.text} {...restProps}>
+      <Text style={styles.UIText} {...restProps}>
         {Texttitle}
       </Text>
     </View>
   );
 };
 
-export default Index;
+export default UIText;
