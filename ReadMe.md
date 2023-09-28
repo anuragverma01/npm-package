@@ -15,7 +15,7 @@ YUVRAJ
 
 import {View} from 'react-native';
 import React from 'react';
-import UIText from '.';
+import UIText from 'react-native-customtext-v1';
 const Screen = () => {
   return (
     <View>
