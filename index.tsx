@@ -1,13 +1,19 @@
-import { StyleSheet, Text, View } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  FlexAlignType,
+  DimensionValue,
+} from "react-native";
 import React from "react";
 interface IndexProps {
-  alignItems?: any;
+  alignItems?: FlexAlignType;
   alignContent?: any;
-  alignSelf?: any;
+  alignSelf?: FlexAlignType;
   fontSize?: number;
   fontWeight?: any;
-  width?: any;
-  height?: any;
+  width?: DimensionValue;
+  height?: DimensionValue;
   backgroundColor?: string;
   borderRadius?: number;
   borderColor?: string;
@@ -20,6 +26,7 @@ interface IndexProps {
   paddingHorizontal?: number;
   position?: "absolute" | "relative";
   Texttitle: string;
+  childern: any;
 }
 
 const UIText: React.FC<IndexProps> = ({
@@ -41,9 +48,7 @@ const UIText: React.FC<IndexProps> = ({
   paddingVertical,
   paddingHorizontal,
   position,
-  Texttitle,
-
-  ...restProps
+  childern,
 }) => {
   const styles = StyleSheet.create({
     UIText: {
@@ -69,9 +74,7 @@ const UIText: React.FC<IndexProps> = ({
   });
   return (
     <View>
-      <Text style={styles.UIText} {...restProps}>
-        {Texttitle}
-      </Text>
+      <Text style={styles.UIText}>{childern}</Text>
     </View>
   );
 };
