@@ -1,55 +1,67 @@
-# React Native NPM PACKAGE
-
-# AUTHOR: 
-YUVRAJ
 
 # React Native Custom Text Package
 
+
+
 # Get Started
+ 
+## Installation
 
- yarn add package-name
+Install my-project with npm
 
-# Import module as 
-  import UIText from "react-native-customtext-v1"
-# Example usage:
+```bash
+yarn add react-native-customtext-v1.2
+```
+    
+    
+## Usage/Examples
 
-import {View} from 'react-native';
-import React from 'react';
-import UIText from 'react-native-customtext-v1';
-const Screen = () => {
-  return (
-    <View>
-      <UIText
-        Texttitle="any"
-        width={50}
-        height={50}
-        backgroundColor="#f00"
+``` javascript
+import {View} from 'react-native'; 
+import React from 'react'; 
+import UIText from 'react-native-customtext-v1'; 
+const Screen = () => { 
+  return ( 
+    
+       <UIText  
+       backgroundColor="#f00"
         position="absolute"
-        alignSelf="center"
-      />
-    </View>
-  );
-};
+        alignSelf="center" 
+        >
+        hello
+        </UIText>
+    ); 
+  };
 
-export default Screen; 
+export default Screen;
 
-#PROPS
-  alignItems?: any;
-  alignContent?: any;
-  alignSelf?: any;
-  fontSize?: number;
-  fontWeight?: any;
-  width?: any;
-  height?: any;
-  backgroundColor?: string;
-  borderRadius?: number;
-  borderColor?: string;
-  borderWidth?: number;
-  margin?: number;
-  marginHorizontal?: number;
-  marginVertical?: number;
-  padding?: number;
-  paddingVertical?: number;
-  paddingHorizontal?: number;
-  position?: "absolute" | "relative";
-  Texttitle: string;
+```
+## Properties
+
+#### Get all items
+# Properties
+
+| Parameter | Type                            
+| :-------- | :------- 
+| `alignItems`      | `FlexAlignType` 
+| `alignContent`      | `any`  
+| `alignSelf`      | `any` 
+| `fontSize`      | `number` |
+| `fontWeight`      | `any` |
+| `width`      | `any` |
+| `height`      | `any`  |
+| `backgroundColor`      | `string`  |
+| `borderRadius`      | `number` |
+| `borderColor`      | `number` |
+| `borderWidth`      | `number`  |
+| `margin`      | `number`  |
+| `marginHorizontal`      | `number`  |
+| `marginVertical`      | `number`  |
+| `padding`      | `number` |
+| `paddingHorizontal`      | `number` |
+| `paddingVertical`      | `number` |
+| `position`      | `absolute ,  relative` |
+
+# Author
+
+- [@Anurag](https://www.github.com/anuragverma01)
